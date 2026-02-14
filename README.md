@@ -1,4 +1,8 @@
-# pi-splash
+<p>
+  <img src="https://raw.githubusercontent.com/ghoseb/pi-splash/main/pi-splash-banner.png" alt="pi-splash" width="1100">
+</p>
+
+# Pi Splash
 
 Splash screen for [pi](https://github.com/badlogic/pi-mono) with gradient logo and motivational taglines.
 
