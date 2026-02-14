@@ -1,0 +1,44 @@
+{
+  "name": "pi-splash",
+  "version": "0.1.0",
+  "description": "A simple splash-screen for pi coding agent.",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "coding-agent"
+  ],
+  "homepage": "https://github.com/ghoseb/pi-splash#readme",
+  "bugs": {
+    "url": "https://github.com/ghoseb/pi-splash/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghoseb/pi-splash.git"
+  },
+  "license": "MIT",
+  "author": "Baishampayan Ghose",
+  "type": "module",
+  "main": "index.ts",
+  "files": [
+    "*.ts",
+    "*.md"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "scripts": {
+    "lint": "biome lint .",
+    "format": "biome format --write .",
+    "check": "biome check --write ."
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-tui": "*"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.3.15"
+  }
+}
